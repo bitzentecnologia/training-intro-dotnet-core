@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\wellington\\projects\\bitzen\\training-intro-dotnet-core\\DotNetCore101\\DotNetCore101.ToDo\\DotNetCore101.ToDo.csproj": {}
+    "C:\\Users\\wellington\\source\\repos\\DotNetCore101\\DotNetCore101.ToDo\\DotNetCore101.ToDo.csproj": {}
   },
   "projects": {
-    "c:\\Users\\wellington\\projects\\bitzen\\training-intro-dotnet-core\\DotNetCore101\\DotNetCore101.ToDo\\DotNetCore101.ToDo.csproj": {
+    "C:\\Users\\wellington\\source\\repos\\DotNetCore101\\DotNetCore101.ToDo\\DotNetCore101.ToDo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\wellington\\projects\\bitzen\\training-intro-dotnet-core\\DotNetCore101\\DotNetCore101.ToDo\\DotNetCore101.ToDo.csproj",
+        "projectUniqueName": "C:\\Users\\wellington\\source\\repos\\DotNetCore101\\DotNetCore101.ToDo\\DotNetCore101.ToDo.csproj",
         "projectName": "DotNetCore101.ToDo",
-        "projectPath": "c:\\Users\\wellington\\projects\\bitzen\\training-intro-dotnet-core\\DotNetCore101\\DotNetCore101.ToDo\\DotNetCore101.ToDo.csproj",
+        "projectPath": "C:\\Users\\wellington\\source\\repos\\DotNetCore101\\DotNetCore101.ToDo\\DotNetCore101.ToDo.csproj",
         "packagesPath": "C:\\Users\\wellington\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\wellington\\projects\\bitzen\\training-intro-dotnet-core\\DotNetCore101\\DotNetCore101.ToDo\\obj\\",
+        "outputPath": "C:\\Users\\wellington\\source\\repos\\DotNetCore101\\DotNetCore101.ToDo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

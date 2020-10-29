@@ -8875,11 +8875,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\wellington\\projects\\bitzen\\training-intro-dotnet-core\\DotNetCore101\\DotNetCore101.ToDo\\DotNetCore101.ToDo.csproj",
+      "projectUniqueName": "C:\\Users\\wellington\\source\\repos\\DotNetCore101\\DotNetCore101.ToDo\\DotNetCore101.ToDo.csproj",
       "projectName": "DotNetCore101.ToDo",
-      "projectPath": "C:\\Users\\wellington\\projects\\bitzen\\training-intro-dotnet-core\\DotNetCore101\\DotNetCore101.ToDo\\DotNetCore101.ToDo.csproj",
+      "projectPath": "C:\\Users\\wellington\\source\\repos\\DotNetCore101\\DotNetCore101.ToDo\\DotNetCore101.ToDo.csproj",
       "packagesPath": "C:\\Users\\wellington\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\wellington\\projects\\bitzen\\training-intro-dotnet-core\\DotNetCore101\\DotNetCore101.ToDo\\obj\\",
+      "outputPath": "C:\\Users\\wellington\\source\\repos\\DotNetCore101\\DotNetCore101.ToDo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

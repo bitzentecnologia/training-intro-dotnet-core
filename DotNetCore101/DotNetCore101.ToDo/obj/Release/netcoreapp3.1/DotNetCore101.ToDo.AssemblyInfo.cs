@@ -11,7 +11,6 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("0214b252-fad1-4b5c-a7c7-53ae96a10077")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("DotNetCore101.ToDo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

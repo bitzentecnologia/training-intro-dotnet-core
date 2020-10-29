@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "E2ht2Tvwn195y3syr58haOVFW414YtUkY4ultCbZj+Q31IEjnVW2cVykWe4KfxG9RtKNrMNBplPv+98ws7hJ9g==",
+  "dgSpecHash": "OJ2TVuLWFBMS/EZo69l8O4x09hGTRai05ulWuV+qFb7o4LbFJ2vs589BQRdSJcLNtUcJIrXuiarU9uUajb6lWg==",
   "success": true,
-  "projectFilePath": "c:\\Users\\wellington\\projects\\bitzen\\training-intro-dotnet-core\\DotNetCore101\\DotNetCore101.ToDo\\DotNetCore101.ToDo.csproj",
+  "projectFilePath": "C:\\Users\\wellington\\source\\repos\\DotNetCore101\\DotNetCore101.ToDo\\DotNetCore101.ToDo.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

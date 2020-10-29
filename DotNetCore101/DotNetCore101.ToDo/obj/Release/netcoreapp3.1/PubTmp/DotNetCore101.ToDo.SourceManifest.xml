@@ -1,4 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <sitemanifest>
-  <IisApp path="C:\Users\wellington\projects\bitzen\training-intro-dotnet-core\DotNetCore101\DotNetCore101.ToDo\obj\Release\netcoreapp3.1\PubTmp\Out\" />
+  <IisApp path="C:\Users\wellington\source\repos\DotNetCore101\DotNetCore101.ToDo\obj\Release\netcoreapp3.1\PubTmp\Out\" />
 </sitemanifest>

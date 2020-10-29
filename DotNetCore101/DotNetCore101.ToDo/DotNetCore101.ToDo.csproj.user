@@ -1,6 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
+  </PropertyGroup>
   <PropertyGroup>
+    <ActiveDebugProfile>DotNetCore101.ToDo</ActiveDebugProfile>
     <Controller_SelectedScaffolderID>ApiControllerWithContextScaffolder</Controller_SelectedScaffolderID>
     <Controller_SelectedScaffolderCategoryPath>root/Controller</Controller_SelectedScaffolderCategoryPath>
     <WebStackScaffolding_ControllerDialogWidth>600</WebStackScaffolding_ControllerDialogWidth>
@@ -10,10 +14,6 @@
     <WebStackScaffolding_LayoutPageFile />
     <WebStackScaffolding_DbContextTypeFullName>DotNetCore101.ToDo.Data.StoreDbContext</WebStackScaffolding_DbContextTypeFullName>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
-    <ActiveDebugProfile>DotNetCore101.ToDo</ActiveDebugProfile>
-    <NameOfLastUsedPublishProfile>tododotnetcore101 - Web Deploy</NameOfLastUsedPublishProfile>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
+    <NameOfLastUsedPublishProfile>DotNetCore101ToDo20201028173130 - Web Deploy</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

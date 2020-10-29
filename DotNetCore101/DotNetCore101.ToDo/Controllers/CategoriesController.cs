@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using DotNetCore101.ToDo.Data;
-using DotNetCore101.ToDo.Model;
+using DotNetCore101.ToDo.Models;
 
 namespace DotNetCore101.ToDo.Controllers
 {

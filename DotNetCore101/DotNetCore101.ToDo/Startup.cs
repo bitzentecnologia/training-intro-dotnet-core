@@ -29,16 +29,19 @@ namespace DotNetCore101.ToDo
         {
             services.AddCors();
             services.AddDbContext<StoreDbContext>(options =>
-                options.UseSqlServer(
-                    Configuration.GetConnectionString("DefaultConnection")));
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"))
+            );
             services.AddSwaggerGen();
             services.AddControllers();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, StoreDbContext context)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            context.Database.Migrate();
+            if (env.IsDevelopment())
+            {
+                app.UseDeveloperExceptionPage();
+            }
 
             app.UseSwagger();
             app.UseSwaggerUI(c =>
@@ -46,11 +49,11 @@ namespace DotNetCore101.ToDo
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "ToDo API V1");
             });
 
-            if (env.IsDevelopment())
+            app.UseCors(options =>
             {
-                app.UseDeveloperExceptionPage();
-            }
-            app.UseCors(option => option.AllowAnyOrigin());
+                options.AllowAnyOrigin();
+                options.AllowAnyMethod();
+            });
 
             app.UseHttpsRedirection();
 

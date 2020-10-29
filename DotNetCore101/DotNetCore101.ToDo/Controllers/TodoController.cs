@@ -6,7 +6,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using DotNetCore101.ToDo.Data;
-using DotNetCore101.ToDo.Model;
+using DotNetCore101.ToDo.Models;
+using DotNetCore101.ToDo.Controllers.Requests;
 
 namespace DotNetCore101.ToDo.Controllers
 {
@@ -80,24 +81,23 @@ namespace DotNetCore101.ToDo.Controllers
         [HttpPost]
         public async Task<ActionResult<Todo>> PostTodo([FromBody] TodoRequest model)
         {
-
-            Category c = _context.Categories.Find(model.CategoryId);
-            if (c == null)
+            var category = _context.Categories.Find(model.CategoryId);
+            if (category == null)
             {
-                return BadRequest();
+                return BadRequest($"Category {model.CategoryId} not found");
             }
-
-            Todo todo = new Todo()
+            var todo = new Todo()
             {
                 Title = model.Title,
                 Details = model.Details,
                 Done = model.Done,
-                Category = c 
+                Category = category
             };
+
             _context.Todos.Add(todo);
             await _context.SaveChangesAsync();
 
-            return Created("todo", new { id = todo.Id });
+            return CreatedAtAction("GetTodo", new { id = todo.Id }, todo);
         }
 
         // DELETE: api/Todo/5
