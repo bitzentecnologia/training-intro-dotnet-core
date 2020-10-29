@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCore101.Intro", "DotNetCore101.Intro\DotNetCore101.Intro.csproj", "{C317EF4E-5D2E-4D7A-839E-749D185557F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCore101.ToDo", "DotNetCore101.ToDo\DotNetCore101.ToDo.csproj", "{EAA179D3-9601-4575-A48B-2FE0648ACA04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C317EF4E-5D2E-4D7A-839E-749D185557F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C317EF4E-5D2E-4D7A-839E-749D185557F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C317EF4E-5D2E-4D7A-839E-749D185557F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C317EF4E-5D2E-4D7A-839E-749D185557F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAA179D3-9601-4575-A48B-2FE0648ACA04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAA179D3-9601-4575-A48B-2FE0648ACA04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAA179D3-9601-4575-A48B-2FE0648ACA04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAA179D3-9601-4575-A48B-2FE0648ACA04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74F90869-2D30-4771-8050-DB3FB650838D}
+	EndGlobalSection
+EndGlobal

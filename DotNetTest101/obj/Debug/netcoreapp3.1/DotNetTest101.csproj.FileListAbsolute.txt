@@ -1,0 +1,13 @@
+C:\Users\wellington\projects\bitzen\training-intro-dotnet-core\DotNetTest101\bin\Debug\netcoreapp3.1\DotNetTest101.exe
+C:\Users\wellington\projects\bitzen\training-intro-dotnet-core\DotNetTest101\bin\Debug\netcoreapp3.1\DotNetTest101.deps.json
+C:\Users\wellington\projects\bitzen\training-intro-dotnet-core\DotNetTest101\bin\Debug\netcoreapp3.1\DotNetTest101.runtimeconfig.json
+C:\Users\wellington\projects\bitzen\training-intro-dotnet-core\DotNetTest101\bin\Debug\netcoreapp3.1\DotNetTest101.runtimeconfig.dev.json
+C:\Users\wellington\projects\bitzen\training-intro-dotnet-core\DotNetTest101\bin\Debug\netcoreapp3.1\DotNetTest101.dll
+C:\Users\wellington\projects\bitzen\training-intro-dotnet-core\DotNetTest101\bin\Debug\netcoreapp3.1\DotNetTest101.pdb
+C:\Users\wellington\projects\bitzen\training-intro-dotnet-core\DotNetTest101\obj\Debug\netcoreapp3.1\DotNetTest101.csprojAssemblyReference.cache
+C:\Users\wellington\projects\bitzen\training-intro-dotnet-core\DotNetTest101\obj\Debug\netcoreapp3.1\DotNetTest101.AssemblyInfoInputs.cache
+C:\Users\wellington\projects\bitzen\training-intro-dotnet-core\DotNetTest101\obj\Debug\netcoreapp3.1\DotNetTest101.AssemblyInfo.cs
+C:\Users\wellington\projects\bitzen\training-intro-dotnet-core\DotNetTest101\obj\Debug\netcoreapp3.1\DotNetTest101.csproj.CoreCompileInputs.cache
+C:\Users\wellington\projects\bitzen\training-intro-dotnet-core\DotNetTest101\obj\Debug\netcoreapp3.1\DotNetTest101.dll
+C:\Users\wellington\projects\bitzen\training-intro-dotnet-core\DotNetTest101\obj\Debug\netcoreapp3.1\DotNetTest101.pdb
+C:\Users\wellington\projects\bitzen\training-intro-dotnet-core\DotNetTest101\obj\Debug\netcoreapp3.1\DotNetTest101.genruntimeconfig.cache

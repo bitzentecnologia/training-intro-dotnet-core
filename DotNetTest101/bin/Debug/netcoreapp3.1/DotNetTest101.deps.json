@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "DotNetTest101/1.0.0": {
+        "runtime": {
+          "DotNetTest101.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DotNetTest101/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
